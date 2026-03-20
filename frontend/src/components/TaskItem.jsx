@@ -47,7 +47,7 @@ export default function TaskItem({ task, onDelete, onToggle, onUpdate }) {
           <span
             className={`text-sm ${
               task.completed
-                ? 'line-through text-slate-400'
+                ? 'line-through text-slate-70'
                 : 'text-slate-800'
             }`}
           >
