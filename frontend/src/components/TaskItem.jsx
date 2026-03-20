@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from 'react';
 export default function TaskItem({ task, onDelete, onToggle, onUpdate }) {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(task.text);

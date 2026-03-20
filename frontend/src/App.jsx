@@ -48,10 +48,10 @@ function App() {
 
   return (
    
-  <div className="min-h-screen bg-yellow-50 flex items-center justify-center px-4">
+  <div className="min-h-screen bg-fuchsia-200 flex items-center justify-center px-4">
     
     
-    <div className="w-full h-full max-w-4xl bg-blue-300 backdrop-blur-lg shadow-xl rounded-3xl p-6 border border-slate-200">
+    <div className="w-full h-full max-w-4xl max-h-10xl bg-fuchsia-100 backdrop-blur-lg shadow-xl rounded-3xl p-6 border border-slate-200">
 
       {/* Header */}
       <div className="text-center mb-6">
